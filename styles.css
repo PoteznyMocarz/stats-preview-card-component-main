@@ -16,15 +16,13 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    align-items: center;
+    
     background-color: var(--main-bg-color);
 }
 
 main {
     max-width: 1165px;
+    margin: 240px auto;
 }
 
 .wrapper {
@@ -116,10 +114,11 @@ h1 span {
 
     main {
         text-align: center;
+        margin: 0 auto;
     }
 
     body {
-        padding: 0 40px;
+        padding: 40px;
     }
     
     .wrapper {
